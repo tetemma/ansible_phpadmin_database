@@ -1,0 +1,5 @@
+name: deploy_pma.yml
+hosts: localhost
+roles:
+{ role: MariaDB }
+{ role: PHPMyAdmin }
